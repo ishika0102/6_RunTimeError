@@ -20,7 +20,7 @@ const Login = () => {
             id='password'
             placeholder=' Password' 
             required/>
-            <button type='submit'>Log In</button>
+            <button className="loginbutton" type='submit'>Log In</button>
           </form>
         </div>
       </section>
