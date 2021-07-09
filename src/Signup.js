@@ -70,7 +70,7 @@ const Signup = () => {
               placeholder='Confirm your password'
               required
             />
-            <button type='submit'>Create Your Account</button>
+            <button className="signupbutton" type='submit'>Create Your Account</button>
           </form>
         </div>
       </section>
