@@ -4,7 +4,7 @@ import  {Link }from 'react-router-dom';
 
 function Nav() {
     const navStye={
-        color:'white'
+        color:'black'
     }
   return (
     <nav>
@@ -12,10 +12,18 @@ function Nav() {
             Logo
         </h3>
         <ul className="navlinks">
-            <Link style={navStye} to='/sellerregister'><li>Registers page</li></Link>
-            <Link style={navStye} to='/suplierregister'><li>Registerv page</li></Link>
-            <Link style={navStye} to='/sellerlogin'><li>Logins page</li></Link>
-            <Link style={navStye} to='/suplierlogin'><li>Loginv page</li></Link>
+            <button className="navbutton">
+            <Link style={navStye} to='/sellerregister'><li>RegisterShopowner</li></Link>
+            </button>
+            <button className="navbutton">
+            <Link style={navStye} to='/suplierregister'><li>RegistervSupplier</li></Link>
+            </button> 
+            <button className="navbutton">
+            <Link style={navStye} to='/sellerlogin'><li>LoginsShopowner</li></Link>
+            </button> 
+            <button className="navbutton">
+            <Link style={navStye} to='/suplierlogin'><li>LoginvSupplier</li></Link>
+            </button>
         </ul>
         </nav>
   );
