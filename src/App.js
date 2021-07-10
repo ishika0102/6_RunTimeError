@@ -6,6 +6,7 @@ import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import registers from './register/RegisterSeller';
 import registerv from './register/RegisterSupplier';
+import Home from './Home';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className= "App">
     <Nav/>
       <Switch>
+      <Route path='/' exact component={Home}/>
       <Route path="/loginshopowner" component={logins}/>
       <Route path="/loginsupplier" component={loginv}/>
       <Route path="/registershopowner" component={registers}/>

@@ -11,6 +11,7 @@ function Nav() {
         <h3 style={navStye} >
             Stock Pantry
         </h3>
+        <Link style={navStye} to='/'>Home Page</Link>
         <ul className="navlinks">
             <button>
             <Link style={navStye} to='/loginshopowner'><li>LoginS</li></Link>
