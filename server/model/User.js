@@ -24,28 +24,16 @@ const userSchema = new mongoose.Schema({
         required : true,
         max : 10,
         min :10
-    }
-
-
-
-});
-
-const ContactSchema = mongoose.Schema({
-    name_contact : {
-        type : String,
-        required : true
     },
-    email_contact :{
-        type: String,
-        required: true
-    },
-    ph_no_contact : {
+    location : {
         type : String,
         required : true,
-        max : 10,
-        min :10
+        max : 100,
+        min :2
+    },
+    role : {
+        type : String,
+        required : true,
     }
 });
-
 module.exports = mongoose.model('User',userSchema);
-module.exports = mongoose.model('Contact',userSchema); 

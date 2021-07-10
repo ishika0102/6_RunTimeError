@@ -8,7 +8,9 @@ const registerValidation =() =>{
         name : Joi.string().min(6).required(),
         email : Joi.string().min(6).required().email(),
         password : Joi.string().min(8).required(),
-        phone_no : Joi.string().min(10).required()
+        phone_no : Joi.string().min(10).required(),
+        location : Joi.string().min(2).required(),
+        role : Joi.string().min(10).required()
     
     };
     return Joi.validate(data,schema);
