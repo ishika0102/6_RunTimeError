@@ -1,9 +1,9 @@
-import './App.css';
-import About from './About';
-import Shop from './Shop';
+import './App.css'; 
+import Login from './Login';
 import Nav from './Nav';
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import Signup from './Signup';
 
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
     <Nav/>
       <Switch>
       <Route path="/" exact component={Home}/>
-      <Route path="/about" component={About}/>
-      <Route path="/shop" component={Shop}/>
+      <Route path="/login" component={Login}/>
+      <Route path="/signup" component={Signup}/>
       </Switch>
     </div>
     </Router>

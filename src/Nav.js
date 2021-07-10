@@ -12,8 +12,8 @@ function Nav() {
             Logo
         </h3>
         <ul className="navlinks">
-            <Link style={navStye} to='/about'><li>Shop page</li></Link>
-            <Link style={navStye} to='/shop'><li>Aboout page</li></Link>
+            <Link style={navStye} to='/login'><li>Login page</li></Link>
+            <Link style={navStye} to='/signup'><li>Signup page</li></Link>
         </ul>
         </nav>
   );
