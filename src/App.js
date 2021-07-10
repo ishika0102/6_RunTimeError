@@ -1,9 +1,11 @@
 import './App.css'; 
-import Login from './Login';
+import logins from './login/LoginSeller';
+import loginv from './login/LoginSupplier';
 import Nav from './Nav';
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import Signup from './Signup';
+import registers from './register/RegisterSeller';
+import registerv from './register/RegisterSupplier';
 
 
 function App() {
@@ -12,22 +14,15 @@ function App() {
     <div className= "App">
     <Nav/>
       <Switch>
-      <Route path="/" exact component={Home}/>
-      <Route path="/login" component={Login}/>
-      <Route path="/signup" component={Signup}/>
+      <Route path="/loginshopowner" component={logins}/>
+      <Route path="/loginsupplier" component={loginv}/>
+      <Route path="/registershopowner" component={registers}/>
+      <Route path="/registersupplier" component={registerv}/>
       </Switch>
     </div>
     </Router>
 
   );
 }
-
-const Home = () =>(
-  <div>
-    <h1>
-      HOME Page
-    </h1>
-  </div>
-);
 
 export default App;

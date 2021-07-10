@@ -1,7 +1,7 @@
-import './App.css';
+import '../App.css';
 import React from 'react';
 
-const Login = () => {
+const loginv = () => {
   return (
     <>
       <section className='showcase login'>
@@ -29,4 +29,4 @@ const Login = () => {
 }
 
 
-export default Login;
+export default loginv;
