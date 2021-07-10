@@ -6,6 +6,7 @@ import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import registers from './register/RegisterSeller';
 import registerv from './register/RegisterSuplier';
+import Home from './Home';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className= "App">
     <Nav/>
       <Switch>
+        <Route path="/" component={Home}/>
       <Route path="/sellerlogin" component={logins}/>
       <Route path="/suplierlogin" component={loginv}/>
       <Route path="/sellerregister" component={registers}/>

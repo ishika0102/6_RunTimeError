@@ -11,6 +11,8 @@ function Nav() {
         <h3>
             Logo
         </h3>
+        <button>
+        <Link style={navStye} to='/'><div>Home page</div></Link></button>
         <ul className="navlinks">
             <button className="navbutton">
             <Link style={navStye} to='/sellerregister'><li>RegisterShopowner</li></Link>
