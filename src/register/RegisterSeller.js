@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const registers= () => {
+function registers() {
   return (
     <>
       <section className='showcase login'>

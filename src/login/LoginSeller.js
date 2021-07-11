@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 
-const logins = () => {
+function logins() {
   return (
     <>
       <section className='showcase login'>

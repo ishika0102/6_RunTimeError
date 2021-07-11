@@ -18,12 +18,11 @@ nav{
 }
 .navlinks{
 display: flex;
+text-decoration: none;
 justify-content: space-around;
 width:20%;
 list-style: none;
-color: black;
 }
-
 .login .form-control {
   display: flex;
   flex-direction: column;

@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 
-const loginv = () => {
+function loginv() {
   return (
     <>
       <section className='showcase login'>
