@@ -82,7 +82,7 @@ export function TopSection(props) {
         <TopSectionInnerContainer>
           <LogoContainer>
             <BrandLogo
-              logoSize={isMobile ? 40 : 65}
+              logoSize={isMobile ? 120 : 65}
               textSize={isMobile ? 35 : 55}
             />
             <Marginer direction="vertical" margin={8} />

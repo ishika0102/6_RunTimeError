@@ -93,7 +93,7 @@ export function Services(props) {
       </ServicesWrapper>
       <BottomContainer>
         {!isServicesEmpty && !isLoading && (
-          <ViewMoreButton>View More</ViewMoreButton>
+          <ViewMoreButton >View More</ViewMoreButton>
         )}
       </BottomContainer>
     </ServicesContainer>

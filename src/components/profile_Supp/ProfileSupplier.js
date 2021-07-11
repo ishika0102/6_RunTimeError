@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
-import '../css/main.css'
+import '../profile_Supp/css/main.css'
 
-function profilev() {
+
+
+function ProfileSupplier() {
   return (
     <div className="App">
     <div className="v93_538"><div className="v93_541" /><div className="v93_580"><div className="v93_591" /><div className="v93_592"><span className="v93_593">Contact</span><span className="v93_594">+91 9678123567</span></div><div className="v93_595"><span className="v93_596">Region</span><span className="v93_597">Hosur</span></div><div className="v93_598"><span className="v93_599">Company Assosciated</span><span className="v93_600">Parle</span></div><div className="v93_601"><span className="v93_602">Name</span><span className="v93_603">Fabian Levy</span></div><div className="v93_626" /></div><div className="v93_1302"><span className="v93_1303">E-mail Address</span><span className="v93_1304">abc@gmail.com</span></div><div className="v93_573"><div className="v93_574"><span className="v93_575">Profile</span><span className="v93_576">Fabian's lifestyle is quite active. He works out three times a week. His fitness routine is a healthy mix of strength-training and cardio. Apart from fitness, his priority is a healthy and balanced diet. He have some sort of a meal plan, but he is quite fliexible with it.
@@ -11,4 +12,4 @@ function profilev() {
   );
 }
 
-export default profilev;
+export default ProfileSupplier;

@@ -9,9 +9,11 @@ import {
   SubmitButton,
 } from "./common";
 import { AccountContext } from "./context";
+import {useHistory} from'react-router-dom';
 
 export function LoginForm(props) {
   const { switchToSignup } = useContext(AccountContext);
+  let history =useHistory();
 
   return (
     <BoxContainer>
@@ -21,7 +23,7 @@ export function LoginForm(props) {
       </FormContainer>
       <MutedLink href="#">Forgot Password?</MutedLink>
       <Marginer direction="vertical" margin="1em" />
-      <SubmitButton>Login</SubmitButton>
+      <SubmitButton onClick={() =>{history.push("/profilev")}}>Login</SubmitButton>
       <Marginer direction="vertical" margin={5} />
       <MutedLink href="#">
         Dont have an Account?
