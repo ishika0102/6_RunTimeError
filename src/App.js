@@ -3,12 +3,14 @@ import { HomePage } from "./containers/HomePage";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { CustomerAccessPage } from "./containers/customerAccessPage";
+import { SignupForm } from "./components/accountBox/signupForm";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="//customer/access/signin" component={SignupForm}/>
           <Route path="/" exact component={HomePage} />
           <Route
             path="/customer/access/:action"
