@@ -62,7 +62,9 @@ export function Navbar(props) {
           <Button size={11}>Register</Button>
         </Link>
         <Marginer direction="horizontal" margin={8} />
-        <AnchorLink to="/customer/access/signin">Login</AnchorLink>
+        <AnchorLink to="/customer/access/signin">
+        <Button size={11}>Login</Button>
+        </AnchorLink>
       </AccessibilityContainer>
     </NavbarContainer>
   );
